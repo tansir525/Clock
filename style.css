@@ -5,7 +5,7 @@ body {
     width: 100%;
     overflow-y: hidden;
     /* Hide vertical scrollbar */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* Hide horizontal scrollbar */
 }
 
@@ -24,18 +24,41 @@ body {
     height: 100%; */
 }
 
-
-/* h1 {
-    width: 100%;
-    margin-top: 5px;
-    position: absolute;
-    font-size: 8vh;
+.api {
+    margin-top: 100px;
+    /* position: absolute; */
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: white;
-    font-family: "Oswald", sans-serif;
     letter-spacing: 5px;
-} */
+    padding: 8px;
+    background: slategray;
+    border: 0;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    border: 0.1px solid black;
+    font-family: "Rancho", cursive;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(6px);
+    }
+    100% {
+        transform: translateY(-6px);
+    }
+}
+
+blockquote {
+    padding-top: 43vh;
+    width: 100%;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Rancho", cursive;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
 
 #clock {
     padding-top: 18vh;

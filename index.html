@@ -9,15 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Clock</title>
 </head>
 
 <body class="img-background" onload="realtimeClock()">
     <div class="main-container">
-        <!-- <h1>Real time Clock</h1> -->
+        <button class="api" onclick="loadQuotes()">Change Quote</button>
         <div id="clock"></div>
-        <!-- <img class="img-background" src="bg.jpg " alt="" /> -->
+
+        <blockquote id="quote"></blockquote>
     </div>
+    <div></div>
     <script src="app.js"></script>
 </body>
 
