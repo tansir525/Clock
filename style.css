@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+html,
+body {
+    margin: 0;
+    width: 100%;
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.main-container {
+    width: 100%;
+    height: 1080px;
+    position: relative;
+}
+
+.img-background {
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%;
+    height: 100%; */
+}
+
+
+/* h1 {
+    width: 100%;
+    margin-top: 5px;
+    position: absolute;
+    font-size: 8vh;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 5px;
+} */
+
+#clock {
+    padding-top: 18vh;
+    width: 100%;
+    position: absolute;
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+    font-family: "Rancho", cursive;
+    margin-top: 55px;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
